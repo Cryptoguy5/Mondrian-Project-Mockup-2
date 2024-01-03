@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project Mockup 2</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: cyan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            height: 600px;
+            width: 600px;
+            background-color: black;
+            display: grid;
+            grid-template-columns: 30% 50% 15%;
+            grid-template-rows: 50% 30% 15%;
+            gap: 15px;
+            border: 15px solid black;
+        }
+
+        .item {
+            height: 100%;
+            width: 100%;
+        }
+
+        .item1 {
+            grid-area: 1 / 2 / 3 / 4;
+        }
+
+
+        .yellow {
+            background-color: rgb(247, 247, 62)
+        }
+
+        .red {
+            background-color: rgb(197, 4, 4);
+        }
+
+        .blue {
+            background-color: rgb(6, 6, 151);
+        }
+
+        .white {
+            background-color: white;
+        }
+
+        @media (max-width: 680px) {
+            .main {
+                width: 90%;
+                height: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="item yellow">
+
+        </div>
+        <div class="item1 red">
+
+        </div>
+        <div class="item white">
+
+        </div>
+        <div class="blue">
+
+        </div>
+        <div class="item white">
+
+        </div>
+        <div class="item white">
+            
+        </div>
+    </div>
+</body>
+</html>
